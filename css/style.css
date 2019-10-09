@@ -7,13 +7,6 @@
 /* ---------------------------------------------------
     HOMEPAGE STYLE
 ----------------------------------------------------- */
-.header{
-	background-image: url(../images/wolf&bear.jpeg);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	height: 450px;
-	background-position: cover;
-}
 .logo-style{
 	object-fit: cover;
 	height: 79px;
@@ -91,55 +84,3 @@
 }
  
 
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
-}
- 
-.carousel, 
-.carousel-inner, 
-.carousel-inner .item {
-    height: 400px;
-}
-
-.item:nth-child(1) {
-    background-image: url(../images/nature.jpg);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: cover;
-}
-
-.item:nth-child(2) {
-    background: #51BCE8;
-}
-
-.item:nth-child(3) {
-    background: #E46653;
-}

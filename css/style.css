@@ -1,0 +1,145 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* ---------------------------------------------------
+    HOMEPAGE STYLE
+----------------------------------------------------- */
+.header{
+	background-image: url(../images/wolf&bear.jpeg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 450px;
+	background-position: cover;
+}
+.logo-style{
+	object-fit: cover;
+	height: 79px;
+}
+.navbar{
+	padding: 10px 20px;
+	background: transparent !important;
+	animation: moveInLeft;
+	animation-duration: 3s;
+	animation-timing-function: ease-out;
+	z-index: 1;
+}
+.nav-style{
+	margin-left: 130px;
+}
+.nav-li{
+	font-family: acumin-pro, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.nav-item{
+    position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.cl-effect-3 a {
+	padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+@keyframes moveInLeft {
+	0%{
+		opacity:0;
+		transform: translateX(-100px);
+	}
+	80%{
+		transform: translateX(10px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+ 
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+ 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 400px;
+}
+
+.item:nth-child(1) {
+    background-image: url(../images/nature.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+
+.item:nth-child(2) {
+    background: #51BCE8;
+}
+
+.item:nth-child(3) {
+    background: #E46653;
+}

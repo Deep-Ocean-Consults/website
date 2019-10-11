@@ -185,7 +185,7 @@
 	margin-top: -10px;
 }
 .btn:link, .btn:visited{
-	text-transform: uppercase;
+	text-transform: capitalize;
 	text-decoration: none;
 	padding: 15px 40px;
 	display: inline-block;
@@ -374,9 +374,22 @@
     -o-background-size: cover;
     -moz-background-size: cover;
     background-position: cover;
-    height: 400px;
+    height: 550px;
+    position: relative;
     margin-top: -88px;
     animation: moveInRight;
     animation-duration: 9s;
     animation-timing-function: ease-out;
+}
+.caption-one{
+    color: #fff;
+}
+.caption-one strong {
+    font-size: 25px;
+    font-family: acumin-pro, sans-serif;
+    letter-spacing: 1px;
+}
+.caption-one p {
+    font-size: 15px;
+    font-family: acumin-pro, sans-serif;
 }

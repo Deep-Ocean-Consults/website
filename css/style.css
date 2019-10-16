@@ -2,7 +2,9 @@
 	padding: 0px;
 	margin: 0px;
 }
-
+body, html{
+    overflow-x:hidden;
+}
 
 /* ---------------------------------------------------
     HOMEPAGE STYLE
@@ -122,31 +124,31 @@
 }
 .banner-top1 {
     background: url(../images/DOC_banner_one.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -moz-background-size: 100% auto;
     background-position: center;
 }
 
 .banner-top2 {
-    background: url(../images/DOC_banner_two.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background: url(../images/DOC_banner_one.jpg) no-repeat 0px 0px;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -moz-background-size: 100% auto;
     background-position: center;
 }
 
 .banner-top3 {
-    background: url(../images/DOC_banner_three.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background: url(../images/DOC_banner_one.jpg) no-repeat 0px 0px;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -moz-background-size: 100% auto;
 }
 
 .banner-info_agile_w3ls {
@@ -353,11 +355,11 @@
 }
 .our-work{
     background: url(../images/our-work.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% auto;
+    -webkit-background-size:  cover;
+    -moz-background-size:  cover;
+    -o-background-size:  cover;
+    -moz-background-size:  cover;
     background-position: cover;
     height: 550px;
     position: relative;
@@ -415,20 +417,25 @@
     background-color: #161616;
     padding: 100px 0px;
 }
-.icon-div ul li{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
+.icon-div{
+    margin-top: -20px;
 }
 .icon-style{
-    display: block;
-    height: 176px;
+}
+.icon-div ul{
+    display: flex;
+    flex-direction: row;
+}
+.icon-div ul li{
+    list-style: none;
 }
 .text-id{
     color:#fff;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-family: acumin-pro, sans-serif;
+    font-size: 15px;
+    display: block;
 }
 .project-component{
     background-color: #161616;
@@ -443,7 +450,12 @@
 }
 footer{
     background-color:#070707;
-    padding: 50px 0px; 
+    padding: 50px 0px;
+    height: auto;
+}
+.social-ul{
+    display: flex;
+    flex-direction: row;
 }
 .social-div ul li{
     display:inline-block;
@@ -451,6 +463,12 @@ footer{
 .socials img {
     height: 60px;
 }
+.copyright-div{
+            font-size: 14px;
+        }
+        .custom-style{
+            margin-top: 20px;
+        }
 
 /* ---------------------------------------------------
     ABOUT US STYLE
@@ -474,11 +492,11 @@ footer{
 }
 .side-img {
     background: url(../images/DOC-WHO-WE-ARE-IMG1.png) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -moz-background-size: 100% auto;
     background-position: cover;
     height: 612px;
     position: relative;
@@ -501,11 +519,11 @@ footer{
 }
 .side-img1 {
     background: url(../images/DOC-WHO-WE-ARE-IMG.png) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -moz-background-size: 100% auto;
     background-position: cover;
     height: 667px;
     margin-top: -97px;

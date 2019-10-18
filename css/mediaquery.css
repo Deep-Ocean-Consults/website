@@ -1,4 +1,6 @@
-/* homepage starts here */
+/* ---------------------------------------------------
+    HOMEPAGE STYLE
+----------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
 	.logo-style{
 			height: 50px;
@@ -6,7 +8,7 @@
 		.banner-top1,
 		.banner-top2,
 		.banner-top3 {
-    		height: 65vw;
+    		height: 45vw;
 		}
 		.callbacks_nav.next {
 			display: none;
@@ -26,9 +28,12 @@
 			padding: 0px;
 			margin-top: 16px;
 		}
+		a.navbar-brand{
+			margin-top: 10px;
+		}
 		div#navbarSupportedContent{
-			margin-top: 85px;
-			margin-left: 298px;
+			margin-top: 10px;
+			margin-left: 405px;
 		}
 		.nav-item{
 			margin:0px;
@@ -43,15 +48,23 @@
 		}
 		a.btn.btn-white{
 			position: absolute;
-    		right: 540px;
+    		right: 755px;
 			margin-top: -80px;
+			cursor: pointer;
 		}
 		.caption-one{
 			padding-top: 0px;
 			position: absolute;
+			margin-top: 60px;
+		}
+		.work-style{
+			right: 296px !important;
+		}
+		.services-style{
+			right: 50px !important;
 		}
 		.our-work{
-			height: 310px;
+			height: 395px;
     		position: relative;
     		padding-top: 1px;
     		padding-bottom: 6px;
@@ -63,18 +76,18 @@
 			line-height: 40px;
 		}
 		.caption-one-button{
-			right: 270px !important;
+			right: 297px;
 			margin-top: -4px !important;
 		}
 		.caption-two{
-			top: 280px;
-			left: 324px;
+			top: 370px;
+			left: 455px;
 			font-size: 15px;
 		}
 		.caption-three{
 			position: absolute;
-    		top: 280px;
-    		right: 15px;
+    		top: 370px;
+    		right: 70px;
     		letter-spacing: 1px;
 		}
 		.text-div{
@@ -82,6 +95,7 @@
 		}
 		.icon-div{
 			margin-top: 30px;
+			margin-left: 150px;
 		}
 		.icon-div ul{
 			flex-direction: row;
@@ -101,11 +115,15 @@
 		.project-component {
 			padding: 60px 0px;
 		}
+		.custom-button{
+			left: 35px !important;
+		}
 		footer{
 			padding: 0px;
 		}
 		.copyright-div{
 			font-size: 14px;
+			margin-top: 60px;
 		}
 		.social-div{
 			margin-top: 20px;
@@ -727,6 +745,9 @@
 			margin:0px;
 			color: #000;
 		}
+		ul.navbar-nav.mr-auto.wow.fadeInLeft.animated.animated.animate-style{
+			margin-left: -188px;
+		}
 		.slide_p{
 			margin-top: -382px;
 		}
@@ -739,6 +760,10 @@
 		.caption-one{
 			padding-top: 0px;
 			position: absolute;
+			top: -52px;
+		}
+		.heading{
+			font-size: 20px;
 		}
 		.our-work{
 			height: 167px;
@@ -784,6 +809,92 @@
 		footer{
 			padding: 0px;
 		}
+}
+
+
+/* ---------------------------------------------------
+    SERVICE STYLE
+----------------------------------------------------- */
+
+@media only screen and (max-width: 1024px){
+	.service-banner{
+		margin-top: -194px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 768px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 425px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 414px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 411px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 375px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 360px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 320px){
+	.service-banner{
+		margin-top: -294px;
+		height: 520px;
+	}
+	.banner-text{
+		top: 295px;
+		width: 100%;
+	}
 }
 
 

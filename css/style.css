@@ -498,9 +498,9 @@ footer{
     -o-background-size: 100% auto;
     -moz-background-size: 100% auto;
     background-position: cover;
-    height: 612px;
+    height: 473px;
     position: relative;
-    margin-top: -10px;
+    margin-top: -24px;
     animation: moveInRight;
     animation-duration: 9s;
     animation-timing-function: ease-out;
@@ -526,7 +526,7 @@ footer{
     -moz-background-size: 100% auto;
     background-position: cover;
     height: 667px;
-    margin-top: -97px;
+    margin-top: -60px;
     position: relative;
     animation: moveInRight;
     animation-duration: 9s;
@@ -539,7 +539,7 @@ footer{
 .our-team{
     background-color: #000;
     height: 400px;
-    margin-top: -109px;
+    margin-top: -187px;
 }
 .team-div{
     padding-top: 140px;
@@ -582,4 +582,141 @@ ul li span {
     margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* ---------------------------------------------------
+    SERVICE STYLE
+----------------------------------------------------- */
+
+.service-banner {
+    background: url(../images/DOC-service-banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: -110px;
+    position: relative;
+    animation: moveInRight;
+    animation-duration: 9s;
+    animation-timing-function: ease-out;
+}
+.banner-text{
+    color: #fff;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    font-family: acumin-pro, sans-serif;
+}
+.banner-text h3{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.banner-text p{
+    font-family: acumin-pro, sans-serif;
+    letter-spacing: 1px;
+}
+
+.creatives{
+    background: url(../images/DOC-creatives.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: cover;
+    height: 600px;
+    margin-top: -40px;
+    position: relative;
+    animation: moveInRight;
+    animation-duration: 9s;
+    animation-timing-function: ease-out;
+}
+.digitalM{
+    background: url(../images/DOC-digital.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: cover;
+    height: 550px;
+    margin-top: 0px;
+    position: relative;
+    animation: moveInRight;
+    animation-duration: 9s;
+    animation-timing-function: ease-out;
+}
+.digitalS{
+    background: url(../images/DOC-digitals.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: cover;
+    height: 550px;
+    margin-top: 0px;
+    position: relative;
+    animation: moveInRight;
+    animation-duration: 9s;
+    animation-timing-function: ease-out;
+}
+.creatives-text{
+    color: #fff;
+    width: 45%;
+    position: absolute;
+    top: 200px;
+    font-family: acumin-pro, sans-serif;
+}
+.creatives-text h3{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.creatives-text p{
+    font-family: acumin-pro, sans-serif;   
+    letter-spacing: 1px;
+}
+.digitalM-text{
+    color: #fff;
+    width: 45%;
+    position: absolute;
+    top: 200px;
+    font-family: acumin-pro, sans-serif;
+}
+.digitalM h3{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.digitalM p{
+    font-family: acumin-pro, sans-serif;   
+    letter-spacing: 1px;
+}
+.service-button{
+    padding: 20px 95px !important;
+}
+.digitalS-text{
+    color: #fff;
+    width: 45%;
+    position: absolute;
+    top: 200px;
+    font-family: acumin-pro, sans-serif;
+}
+.digitalS h3{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.digitalS p{
+    font-family: acumin-pro, sans-serif;   
+    letter-spacing: 1px;
 }

@@ -107,7 +107,7 @@
 			height: 110px;
 		}
 		.text-id{
-			margin-left: 10px;
+			margin-right: 10px;
 		}
 		.services-component {
 			padding: 0px;
@@ -755,7 +755,7 @@
 			display: none;
 		}
 		a.btn.btn-white{
-			margin-top: 335px;
+			margin-right: -461px;
 		}
 		.caption-one{
 			padding-top: 0px;
@@ -778,11 +778,10 @@
 			line-height: 16px;
 		}
 		.caption-one-button{
-			display: none !important;
 		}
 		.caption-two{
-			top: 135px;
-			left: 85px;
+			top: 140px;
+			left: 105px;
 			font-size: 15px;
 		}
 		.caption-three{
@@ -897,5 +896,29 @@
 	}
 }
 
+/* ---------------------------------------------------
+    ABOUT STYLE
+----------------------------------------------------- */
+@media only screen and (max-width: 320px){
+	.logo-style{
+			height: 50px;
+		}
+		.collapse{
+			position:absolute;
+		}
+		.navbar{
+			padding: 0px;
+		}
+		div#navbarSupportedContent{
+			margin-top: 85px;
+		}
+		.nav-item{
+			margin:0px;
+			color: #000;
+		}
+		ul.navbar-nav.mr-auto.wow.fadeInLeft.animated.animated.animate-style{
+			margin-left: -188px;
+		}
+}
 
 	

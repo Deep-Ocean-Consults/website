@@ -748,6 +748,11 @@ ul li span {
     font-family: acumin-pro, sans-serif;   
     letter-spacing: 1px;
 }
+
+/* ---------------------------------------------------
+    CONTACT STYLE
+----------------------------------------------------- */
+
 #bg{
   position: fixed; 
   top: -50%; 
@@ -800,6 +805,17 @@ form{
 }
 .form-group{
     margin-bottom: 40px;
+}
+input{
+    color: #000 !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+::placeholder{
+    color: #000 !important;
 }
 .contact-footer{
     position: relative;
@@ -875,7 +891,6 @@ form{
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  border: 1px solid #ccc;
   width: 70%;
   border-left: none;
   height: 550px;
@@ -899,6 +914,16 @@ form{
     background-position: center;
     height: 554px;
 }
+.tab-banner-one{
+    background: url(../images/tab-banner-one.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    height: 554px;
+}
 .creatives-h3{
     font-size: 90px;
     font-family: acumin-pro, sans-serif;
@@ -913,13 +938,24 @@ form{
 .stack-list{
     display: flex;
     flex-direction: row;
-    margin-left: 140px;
+    margin-left: 245px;
     margin-top: 30px;
+}
+.stack-img{
+    overflow: hidden;
+}
+.stack-list img {
+    height: 150px;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+.stack-list img:hover {
+    transform: scale(1.5);
 }
 .stack-list li{
     list-style: none;
-     align-content: space-between;
-     margin-left: 20px;
+    align-content: space-between;
+    margin-left: 20px;
 }
 .stacks h3{
     font-size: 30px;
@@ -935,4 +971,24 @@ form{
     color: #fff;
     font-family: acumin-pro, sans-serif;
     letter-spacing: 1px;
+}
+
+/* ---------------------------------------------------
+    CREATIVES STYLE
+----------------------------------------------------- */
+
+.digital-tech{
+    background: url(../images/technology.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.digital-tech-overlay{
+    background: #000;
+    opacity: 0.6;
+    height: 550px;
 }

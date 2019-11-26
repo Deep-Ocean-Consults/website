@@ -17,40 +17,57 @@
 	function hideURLbar(){ window.scrollTo(0,1); } 
 	</script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/header.js"></script>
 	<script type="text/javascript" src="js/responsiveslides.min.js"></script>
 </head>
 <body>
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  		<a class="navbar-brand" href="index.html">
-	  			<img src="images/logo.png" alt="DOC LOGO"n class="logo-style">
-	  		</a>
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
-		  	</button>
-	  		<div class="collapse navbar-collapse nav-style" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto wow fadeInLeft animated animated animate-style" data-wow-delay=".5s">
-			       	<li class="nav-item active cl-effect-3 nav-li">
-			        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			      	</li>
-				    <li class="nav-item cl-effect-3 nav-li">
-				        <a class="nav-link" href="#">Our Works</a>
-				    </li>
-				    <li class="nav-item cl-effect-3 nav-li">
-				        <a class="nav-link cl-effect-3" href="#">Services</a>
-				    </li>
-				    <li class="nav-item cl-effect-3 nav-li">
-				        <a class="nav-link cl-effect-3" href="#">About Us</a>
-				    </li>
-				    <li class="nav-item cl-effect-3 nav-li">
-				        <a class="nav-link cl-effect-3" href="#">Blog</a>
-				    </li>
-				    <li class="nav-item cl-effect-3 nav-li">
-				        <a class="nav-link cl-effect-3" href="#">Contact</a>
-				    </li>
-			    </ul>
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+						<a class="navbar-brand" href="index.html" target="_blank">
+							<img src="images/logo.png" alt="DOC LOGO">
+						</a>	
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">About</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Portfolio</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="services.html">Services</a>
+								</li>
+								<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="creatives.html">Creatives</a>
+										<a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a>
+										<a class="dropdown-item" href="digital-technology.html">Dgital-Technology</a>
+									</div>
+								</li> -->
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Blog</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>		
+				</div>
 			</div>
-		</nav>
+		</div>
 	</div>
 
 	<div class="service-banner">
@@ -74,7 +91,7 @@
 						<p>
 							In today's marketing, design and design thinking as well as creative thinking is necessary for driving business growth, provides it's clients with several creative services.
 						</p>
-						<a href="" class="btn btn-white service-button">
+						<a href="creatives.html" class="btn btn-white service-button">
 							See More
 						</a>
 					</div>
@@ -111,7 +128,7 @@
 				<p>
 					Today, businesses of all sizes turn to the internet to help grow their market share and generate awareness and adoption of their products and services, DeepOcean helps brands and businesses make the most of their online marketing.
 				</p>
-				<a href="" class="btn btn-white service-button">
+				<a href="digital-marketing.html" class="btn btn-white service-button">
 					See More
 				</a>
 			</div>
@@ -125,9 +142,9 @@
 					digital technology
 				</h3>
 				<p>
-					Today's transformation strategy, platforms, and systems are an integral part of helping a business grow revenue, DeepOcean leverages digital technologies and platform development to enable a business to take adavantage of available digital technologies.
+					Today's transformation strategy, platforms, and systems are an integral part of helping a business grow revenue. DeepOcean leverages digital technologies and platform development to enable a business to take adavantage of available digital technologies.
 				</p>
-				<a href="" class="btn btn-white service-button">
+				<a href="digital-technology.html" class="btn btn-white service-button">
 					See More
 				</a>
 			</div>
@@ -140,10 +157,10 @@
 				<h3 class="heading">
 					Want to start a project?
 				</h3>
-				<p>
+				<p class="serviceP">
 					Lets's work together! <br> Say hello@deepoceanconsults or call +2348032567491
 				</p>
-				<a href="" class="btn btn-white service-button">
+				<a href="contact.html" class="btn btn-white service-button">
 					start a project
 				</a>
 			</div>
@@ -153,12 +170,12 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<div class="copyright-div">
 						&#9400; 2019 Deepocean Consults
 					</div>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-6">
 					<div class="social-div">
 						<ul class="social-ul">
 							<li class="socials">
